@@ -1,14 +1,14 @@
 import React, { Component } from 'react';
-import SearchbarContainer from '../containers/SearchbarContainer';
-import MapCanvasContainer from '../containers/MapCanvasContainer';
-import ResultsContainer from '../containers/ResultsContainer';
+import Searchbar from './Searchbar';
+import MapCanvas from './MapCanvas';
+import Results from './ResultsList';
 
 const App = () => (
   <div>
     <h1>Google Places</h1>
-    <SearchbarContainer />
-    <MapCanvasContainer />
-    <ResultsContainer />
+    <Searchbar />
+    <MapCanvas />
+    <Results />
   </div>
 )
 

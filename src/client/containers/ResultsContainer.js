@@ -1,11 +1,18 @@
-import { connect } from 'react-redux';
+import React, { Component } from 'react';
 import ResultsList from '../components/ResultsList';
 
-const mapStateToProps = state => {
-  return state;
-};
+class ResultsContainer extends Component {
+  constructor(props) {
+    super(props);
+    this.state = {
 
-const mapDispatchToProps = dispatch => ({
-});
+    };
+  }
+  render() {
+    return (
+      <ResultsList />
+    );
+  }
+}
 
-export default connect(mapStateToProps, mapDispatchToProps)(ResultsList);
+export default ResultsContainer;

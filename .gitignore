@@ -6,6 +6,3 @@
 
 # Configuration Files
 .env
-
-# HTML file with API key
-/index.html

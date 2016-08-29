@@ -1,5 +1,0 @@
-const SEARCH_PLACES = 'SEARCH_PLACES';
-
-export {
-  SEARCH_PLACES,
-};

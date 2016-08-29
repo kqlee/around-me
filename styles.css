@@ -1,16 +1,67 @@
+/* General application styles */
+
 html {
-  background-color: #e6ffff;
+  height: 100%;
+  width: 100%;
+  background-image: url('./src/client/assets/San_Francisco.jpg');
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
 }
 
-.MapCanvas {
-  border: 1px black solid;
-  margin: 25px 25px 25px 25px;
-  height: 300px;
-  width: 300px;
+.wrapper {
+  margin-top: 5%;
+  background-color: white;
 }
 
-.ResultsList {
-  border: 1px black solid; 
-  height: 500px;
-  width: 200px;
+p {
+  font-size: 12px;
+}
+
+/* Searchbar styles */
+
+.searchbar {
+  height: 20vh;
+}
+
+/* Map styles */
+
+#map-canvas {
+  height: 75vh;
+}
+
+/* Result list styles */
+
+#results-list {
+  height: 55vh;
+  overflow-x: hidden; /* hides excess content on x-axis */
+  overflow-y: scroll; /* allows y-axis to be scrollable */
+}
+
+::-webkit-scrollbar {
+  width: 0px;  /* remove scrollbar space */
+  background: transparent;  /* scrollbar invisible */
+}
+
+.button-wrapper {
+  text-align: center;
+}
+
+.left-arrow {
+  margin-top: 5%;
+  margin-left: 0%;
+  margin-right: 1%;
+}
+
+.right-arrow {
+  margin-top: 5%;
+  margin-left: 1%;
+  margin-right: 0%;
+}
+
+li > img {
+  max-height: 10%;
+  max-width: 10%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
