@@ -1,21 +1,22 @@
 {
   "name": "react-starter",
   "version": "1.0.0",
-  "description": "Starter repo for react",
+  "description": "Google Places Search",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack-dev-server --progress --colors --inline --content-base . --history-api-fallback"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/kqlee/react-starter.git"
+    "url": "git+https://github.com/kqlee/around-me.git"
   },
-  "author": "",
+  "author": "Kent Lee",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/kqlee/react-starter/issues"
+    "url": "https://github.com/kqlee/around-me/issues"
   },
-  "homepage": "https://github.com/kqlee/react-starter#readme",
+  "homepage": "https://github.com/kqlee/around-me#readme",
   "devDependencies": {
     "babel-core": "^6.3.13",
     "babel-loader": "^6.2.0",

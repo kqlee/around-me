@@ -92,6 +92,7 @@ class AppContainer extends Component {
     if (!placeType) {
       placeType = 'restaurant';
     }
+    // Search query options
     const options = {
       query: searchQuery,
       location: this.state.region,
