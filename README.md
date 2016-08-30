@@ -1,6 +1,6 @@
 # Around Me
 
-!(http://g.recordit.co/MGAUKTZwXA.gif)
+![gif](http://g.recordit.co/MGAUKTZwXA.gif)
 
 ## Instructions
 
