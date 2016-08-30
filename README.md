@@ -1,5 +1,7 @@
 # Around Me
 
+!(http://g.recordit.co/MGAUKTZwXA.gif)
+
 ## Instructions
 
 - Run `npm install` to install all of the dependencies
